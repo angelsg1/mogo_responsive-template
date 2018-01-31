@@ -448,32 +448,32 @@ section#what-we-do {
         
         h4 {
             position: absolute;
-            top: 94px;
+            top: 110px;
             left: 85px;
             
             
             @media (max-width: 1200px) {
-                top: 140px;
+                top: 110px;
                 left: 90px;
             }
             
             @media (max-width: 992px) {
-                top: 130px;
+                top: 150px;
                 left: 85px;
             }
             @media (max-width: 768px) {
-                top: 165px;
-                left: 85px;
+                top: 130px;
+                left: 80px;
               
             }
             @media (max-width: 576px) { 
-                top: 199px;
+                top: 158px;
                 left: 75px;
             }
             
             @media (max-width: 414px) { 
-                top: 235px;
-                left: 75px;
+                top: 190px;
+                left: 65px;
             }
           
         }
@@ -570,7 +570,7 @@ section#our-work {
     }
     
     .container.feedback {
-        padding-bottom: 30px;
+        padding-bottom: 40px;
         padding-top: 30px;
         
        
@@ -579,13 +579,16 @@ section#our-work {
             border-top: 3px solid $pink;
             width: 50px;
             margin: 0;
+            top: 190px;
+            position: absolute;
             @media (max-width: 768px) {
-                width: 40px;
+               
+                top: 120px;
               
                 }
             @media (max-width: 576px) {
-                position: absolute;
-                top: 60px;
+                
+                top: 150px;
                 left: 5px;
             }
             
@@ -596,15 +599,15 @@ section#our-work {
             }
         h4 {
             position: absolute;
-            top: 94px;
+            top: 110px;
             left: 85px;
             
             @media (max-width: 992px) {
-                top: 130px;
+                top: 140px;
                 left: 85px;
             }
             @media (max-width: 768px) {
-                top: 60px;
+                top: 70px;
                 left: 75px;
               
             }

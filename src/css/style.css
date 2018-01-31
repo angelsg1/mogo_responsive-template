@@ -271,28 +271,28 @@ section#what-we-do {
           width: 40px; } }
     section#what-we-do .container-fluid h4 {
       position: absolute;
-      top: 94px;
+      top: 110px;
       left: 85px; }
       @media (max-width: 1200px) {
         section#what-we-do .container-fluid h4 {
-          top: 140px;
+          top: 110px;
           left: 90px; } }
       @media (max-width: 992px) {
         section#what-we-do .container-fluid h4 {
-          top: 130px;
+          top: 150px;
           left: 85px; } }
       @media (max-width: 768px) {
         section#what-we-do .container-fluid h4 {
-          top: 165px;
-          left: 85px; } }
+          top: 130px;
+          left: 80px; } }
       @media (max-width: 576px) {
         section#what-we-do .container-fluid h4 {
-          top: 199px;
+          top: 158px;
           left: 75px; } }
       @media (max-width: 414px) {
         section#what-we-do .container-fluid h4 {
-          top: 235px;
-          left: 75px; } }
+          top: 190px;
+          left: 65px; } }
 
 section#our-team {
   margin-bottom: 30px; }
@@ -344,19 +344,20 @@ section#our-work {
   section#our-work .container-fluid .work1 {
     width: 100%; }
   section#our-work .container.feedback {
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     padding-top: 30px; }
     section#our-work .container.feedback .hr-signature {
       border-top: 3px solid #f38181;
       width: 50px;
-      margin: 0; }
+      margin: 0;
+      top: 190px;
+      position: absolute; }
       @media (max-width: 768px) {
         section#our-work .container.feedback .hr-signature {
-          width: 40px; } }
+          top: 120px; } }
       @media (max-width: 576px) {
         section#our-work .container.feedback .hr-signature {
-          position: absolute;
-          top: 60px;
+          top: 150px;
           left: 5px; } }
       @media (max-width: 414px) {
         section#our-work .container.feedback .hr-signature {
@@ -364,15 +365,15 @@ section#our-work {
           left: 15px; } }
     section#our-work .container.feedback h4 {
       position: absolute;
-      top: 94px;
+      top: 110px;
       left: 85px; }
       @media (max-width: 992px) {
         section#our-work .container.feedback h4 {
-          top: 130px;
+          top: 140px;
           left: 85px; } }
       @media (max-width: 768px) {
         section#our-work .container.feedback h4 {
-          top: 60px;
+          top: 70px;
           left: 75px; } }
       @media (max-width: 576px) {
         section#our-work .container.feedback h4 {
