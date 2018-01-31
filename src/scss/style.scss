@@ -44,6 +44,7 @@ $green: #95e1d3;
 $white: #ffffff;
 $pink: #f38181;
 $grey: #f8f8f8;
+$black: #000000;
 
 //@media (max-width: 414px) { ... }
 //@media (max-width: 576px) { ... }
@@ -487,6 +488,40 @@ section#our-team {
     
     margin-bottom: 30px;
     
+    .team-img-container {
+        position: relative;
+        
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: $pink;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            -webkit-transform: scale(0);
+            transition: .5s ease;
+        }
+        
+        .text {
+                color: $white;
+                font-size: 18px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                text-align: center;
+            } 
+        }
+        .team-img-container:hover .overlay {
+            transform: scale(1);
+            opacity: 0.9;
+
+            
+        }
+    
     h4 {
         padding-top: 0; 
     }
@@ -584,6 +619,8 @@ section#our-work {
             }
           
         }
+        
+            
     }
     
 }
@@ -669,7 +706,7 @@ section#google-map {
 }
     
 
-
+// FOOTER STYLES //
 
 
 
