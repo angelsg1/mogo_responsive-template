@@ -7,7 +7,7 @@
       <link rel="stylesheet" href="css/font-awesome.min.css">
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="css/style.css">
-      <title>Responsive Mongo Template</title>
+      <title>Responsive MoGo Template</title>
     </head>
     <body>
         <!-- Home Page -->
@@ -19,17 +19,20 @@
               <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" /></a>
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
+                     <li class="nav-item active">
+                    <a class="nav-link" href="#home-page">HOME <span class="sr-only">(current)</span></a>
+                  </li>
                   <li class="nav-item active">
-                    <a class="nav-link" href="#about-us">ABOUT <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#about-us">ABOUT</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#services">SERVICE</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#blog">BLOG</a>
+                    <a class="nav-link" href="#our-work">WORK</a>
                   </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact-us">CONTACT</a>
+                    <a class="nav-link" href="#blog">BLOG</a>
                   </li>
                 </ul>
               </div>
@@ -39,27 +42,27 @@
                     <div class="row text-center">
                         <div class="col-md-12">
                             <h2>Creative Template</h2>
-                            <h1>WELCOME<br>TO MONGO</h1>
+                            <h1>WELCOME<br>TO MOGO</h1>
                             <hr>
                             <button class="hero-button">LEARN MORE</button>
                         </div>
                     </div>
-                    <div class="row hide">
-                        <div class="col-md-3">
-                            <hr>
+                    <div class="row hide second-menu">
+                        <div class="col-md-3 second-menu-item">
+                            <hr class="hr">
                             <span class="number">01</span><a href="#">INTRO</a>
                         </div>
-                        <div class="col-md-3">
-                            <hr>
-                            <span class="number">02</span><a href="#">WORK</a>
+                        <div class="col-md-3 second-menu-item">
+                            <hr class="hr">
+                            <span class="number">02</span><a href="#our-work">WORK</a>
                         </div>
-                        <div class="col-md-3">
-                            <hr>
-                            <span class="number">03</span><a href="#">ABOUT</a>
+                        <div class="col-md-3 second-menu-item">
+                            <hr class="hr">
+                            <span class="number">03</span><a href="#about-us">ABOUT</a>
                         </div>
-                        <div class="col-md-3">
-                            <hr>
-                            <span class="number">04</span><a href="#">CONTACTS</a>
+                        <div class="col-md-3 second-menu-item">
+                            <hr class="hr">
+                            <span class="number">04</span><a href="#blog">BLOG</a>
                         </div>
                     </div>
                 </div>
@@ -379,7 +382,7 @@
                                 </div>
                                 <div class="col-md-9">
                                     <p class="large-paragraph">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.&quot;</p>
-                                    <hr class="hr-signature"><h4>Jon Doe</h4>
+                                    <hr class="hr-signature"><h4>Peter Pine</h4>
                                 </div>
                             </div>
                         </div>
@@ -390,7 +393,7 @@
                                 </div>
                                 <div class="col-md-9">
                                     <p class="large-paragraph">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.&quot;</p>
-                                    <hr class="hr-signature"><h4>Jon Doe</h4>
+                                    <hr class="hr-signature"><h4>Cris Burton</h4>
                                 </div>
                             </div>
                         </div>
@@ -483,19 +486,48 @@
         <!-- Blog -->
         <!-- Map -->
         <section id="google-map">
+           
             <div class="container-fluid google-map" id="map">
-              <div class="overlay"></div>  
             </div>
         </section>
         <!-- Map -->
         <!-- Footer -->
-        <footer>
-            <div class="container">
+        <footer id="footer">
+            <div class="container justify-content-center">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
+                        <a href="#"><img src="images/mogo-logo-footer.png" alt="logo" class="logo-footer" /></a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                        <form> 
+                            <div>
+                                <input id="email-form" type="email" name="email">
+                                <input id="submit-btn" type="submit" value="SUBSCRIBE">
+                            </div>
+                        </form>
+                        <div class="social">
+                            <p>Follow Us:</p>
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-google"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                            <a href="#" class="fa fa-youtube"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                         
+                        </div>
                         
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4 blog-footer">
+                        <p>BLOGS</p>
+                        <img src="images/footer1.png" alt="logo" class="img-fluid" />
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <img src="images/footer2.png" alt="logo" class="img-fluid" />
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        
+                        
+                    </div>
+                    <div class="col-md-4">
+                        <p>INSTAGRAM</p>
+                        <img src="images/instagram.jpg" alt="logo" class="img-fluid" />
                         
                     </div>
                 </div>
@@ -504,13 +536,13 @@
         <!-- Footer -->
         
         
-        
-      <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGVwa4g9lLNaE9yFLxg04NH1q3wsjAwAY&callback=initMap">
-    </script>
-      <script src="js/map.js"></script>
-      <script src="js/jquery.min.js"></script>
-      <script src="js/tether.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
+      
+        <script src="js/jquery.min.js"></script>
+        <script src="js/tether.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/map.js"></script>
+        <script src="js/main.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGVwa4g9lLNaE9yFLxg04NH1q3wsjAwAY&callback=initMap"></script>
+     
     </body>
 </html>
