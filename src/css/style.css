@@ -1,22 +1,22 @@
 @font-face {
   font-family: 'Montserrat';
-  src: url("/fonts/montserrat-bold-webfont.eot");
-  src: url("/fonts/montserrat-bold-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/montserrat-bold-webfont.woff") format("woff"), url("/fonts/montserrat-bold-webfont.ttf") format("truetype"), url("/fonts/montserrat-bold-webfont.svg#icomoon") format("svg"); }
+  src: url("../fonts/montserrat-bold-webfont.eot");
+  src: url("../fonts/montserrat-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-bold-webfont.woff") format("woff"), url("../fonts/montserrat-bold-webfont.ttf") format("truetype"), url("../fonts/montserrat-bold-webfont.svg#icomoon") format("svg"); }
 
 @font-face {
   font-family: 'Kaushanscript';
-  src: url("/fonts/kaushanscript-regular-webfont.eot");
-  src: url("/fonts/kaushanscript-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/kaushanscript-regular-webfont.woff") format("woff"), url("/fonts/kaushanscript-regular-webfont.ttf") format("truetype"), url("/fonts/kaushanscript-regular-webfont.svg#icomoon") format("svg"); }
+  src: url("../fonts/kaushanscript-regular-webfont.eot");
+  src: url("../fonts/kaushanscript-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/kaushanscript-regular-webfont.woff") format("woff"), url("../fonts/kaushanscript-regular-webfont.ttf") format("truetype"), url("../fonts/kaushanscript-regular-webfont.svg#icomoon") format("svg"); }
 
 @font-face {
   font-family: 'Roboto-lightitalic';
-  src: url("/fonts/roboto-lightitalic-webfont.eot");
-  src: url("/fonts/roboto-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/roboto-lightitalic-webfont.woff") format("woff"), url("/fonts/roboto-lightitalic-webfont.ttf") format("truetype"), url("/fonts/roboto-lightitalic-webfont.svg#icomoon") format("svg"); }
+  src: url("../fonts/roboto-lightitalic-webfont.eot");
+  src: url("../fonts/roboto-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-lightitalic-webfont.woff") format("woff"), url("../fonts/roboto-lightitalic-webfont.ttf") format("truetype"), url("../fonts/roboto-lightitalic-webfont.svg#icomoon") format("svg"); }
 
 @font-face {
   font-family: 'Roboto-regular';
-  src: url("/fonts/roboto-regular-webfont.eot");
-  src: url("/fonts/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/roboto-regular-webfont.woff") format("woff"), url("/fonts/roboto-regular-webfont.ttf") format("truetype"), url("/fonts/roboto-regular-webfont.svg#icomoon") format("svg"); }
+  src: url("../fonts/roboto-regular-webfont.eot");
+  src: url("../fonts/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-regular-webfont.woff") format("woff"), url("../fonts/roboto-regular-webfont.ttf") format("truetype"), url("../fonts/roboto-regular-webfont.svg#icomoon") format("svg"); }
 
 h1 {
   font-family: 'Montserrat';
@@ -86,7 +86,7 @@ p {
 
 section#home-page {
   height: 100vh;
-  background-image: url(/images/hero-bg.jpg);
+  background-image: url("../images/hero-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -236,7 +236,7 @@ section#home-page {
     padding: 5px 70px 5px 25px; }
 
 section#u-designs {
-  background-image: url(/images/uniquedesingbackground.jpg);
+  background-image: url("../images/uniquedesingbackground.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -407,7 +407,7 @@ section#our-work {
           left: 75px; } }
 
 section#feedback {
-  background-image: url(/images/uniquedesingbackground.jpg);
+  background-image: url("../images/uniquedesingbackground.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
